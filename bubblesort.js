@@ -17,10 +17,11 @@ function bubbleSort(arr) {
 
 
 function swap(a, b) {
-  let temp = a;
-  a = b;
-  b = temp;
-  let storage = [a,b];
-  return storage
+  // let temp = a;
+  // a = b;
+  // b = temp;
+  // let storage = [a,b];
+  // return storage
+  return [a,b] = [b,a]
 }
 
